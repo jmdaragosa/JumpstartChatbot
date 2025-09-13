@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jumpstart Fashion</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">Jumpstart</div>
+      <nav class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Women</a>
+        <a href="#">Men</a>
+        <a href="#">Stores</a>
+        <a href="#">Support</a>
+      </nav>
+      <div class="nav-icons">
+        <a href="#"><span>🔍</span></a>
+        <a href="#"><span>🛍</span></a>
+        <a href="#"><span>👤</span></a>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Fashion Meets Innovation</h1>
+        <p>
+          Discover the latest trends in over
+          <strong>750 stores nationwide</strong> and shop online with ease. Our
+          AI-powered support is always here to assist you.
+        </p>
+        <button class="cta-btn">Shop Now</button>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <div class="feature">
+        <h2>👗 Trendy Collections</h2>
+        <p>Stay ahead of fashion with curated styles updated every season.</p>
+      </div>
+      <div class="feature">
+        <h2>🛒 Seamless Shopping</h2>
+        <p>Whether in-store or online, enjoy a smooth, connected experience.</p>
+      </div>
+      <div class="feature">
+        <h2>💬 AI Customer Support</h2>
+        <p>
+          Get instant answers to your questions with our 24/7 virtual assistant.
+        </p>
+      </div>
+    </section>
+
+    <!-- Chatbot Button -->
+    <button id="chat-toggle">💬 Chat</button>
+
+    <!-- Chatbot Window -->
+    <div class="chat-container" id="chat-container">
+      <div class="chat-header">
+        <div class="chat-header-info">
+          <div class="bot-avatar">🤖</div>
+          <h3>Jumpstart Assistant</h3>
+        </div>
+        <button id="close-chat">✖</button>
+      </div>
+
+      <div class="chat-body" id="chat-body">
+        <div class="message bot">
+          <div class="bot-avatar-small">🤖</div>
+          <p>
+            Hello! 👋 I’m your virtual assistant. Ask me about orders, stores,
+            or returns.
+          </p>
+        </div>
+      </div>
+
+      <div class="chat-footer">
+        <input type="text" id="user-input" placeholder="Type your message..." />
+        <button id="send-btn">➤</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2025 Jumpstart Fashion. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

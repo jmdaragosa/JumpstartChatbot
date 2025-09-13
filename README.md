@@ -29,11 +29,11 @@ It helps customers get instant answers, reducing support workload and improving 
    ```bash
    npm install
 4. Setup environment variables
-   Create a .env file in the root folder:
+Create a .env file in the root folder:
    ```bash
    API_KEY=your_api_key_here
 6. Run the server
    ```bash
    node server.js
 8. Open in browser
-   Go to: http://localhost:3000
+Go to: http://localhost:3000
